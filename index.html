@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume | Dahlia Anazario</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header id="home" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="logo">Dahlia Anazario</div>
+      <button id="mobile-menu" class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" tabindex="0">About</a></li>
+        <li><a href="#experience" tabindex="0">Experience</a></li>
+        <li><a href="#education" tabindex="0">Education</a></li>
+        <li><a href="#skills" tabindex="0">Skills</a></li>
+        <li><a href="#projects" tabindex="0">Projects</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="intro">
+      <img src="dahlia.jpg" alt="Portrait photo of Dahlia Anazario" class="profile-pic" />
+      <h1>Dahlia Anazario</h1>
+      <h2>Architect of Code | Digital Dreamweaver</h2>
+      <p>Fueled by curiosity, driven by innovation — crafting intuitive digital experiences that shape the future.</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" tabindex="-1">
+      <h2>About Me</h2>
+      <p>I’m a bold technologist and creative problem-solver on a mission to turn lines of code into life-changing experiences. Whether I’m building intuitive interfaces or optimizing logic behind the scenes, I bring vision, versatility, and velocity to every project.</p>
+      <ul>
+        <li>Magnetic team energy with leadership instincts</li>
+        <li>Relentless learner with a love for elegant solutions</li>
+        <li>Big picture thinker with laser focus on details</li>
+      </ul>
+    </section>
+
+    <section id="experience" tabindex="-1">
+      <h2>Experience</h2>
+      <article>
+        <h3>Creative Technologist Intern – Oxord</h3>
+        <p><em>Roxas City, Capiz | February 2023 – May 2024</em></p>
+        <ul>
+          <li>Crafted immersive web interfaces using React and Tailwind CSS to delight users across devices.</li>
+          <li>Bridged the gap between design vision and technical execution, collaborating seamlessly across teams.</li>
+          <li>Championed performance and accessibility, making the web faster and more inclusive for all.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education" tabindex="-1">
+      <h2>Education</h2>
+      <article>
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p>Colegio De la Purisima Concepcion — Cultivating the next generation of digital pioneers.</p>
+      </article>
+    </section>
+
+    <section id="skills" tabindex="-1">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-div">
+          <h4>Programming Languages</h4>
+          <p>JavaScript, Python, Java, C++ — fluent in the languages of possibility.</p>
+        </div>
+        <div class="skill-div">
+          <h4>Frameworks & Libraries</h4>
+          <p>React, Node.js, Express — my tools of choice to sculpt stunning digital experiences.</p>
+        </div>
+        <div class="skill-div">
+          <h4>Tools & Platforms</h4>
+          <p>Git, GitHub, VS Code, Netlify — the digital playground where ideas take flight.</p>
+        </div>
+        <div class="skill-div">
+          <h4>Soft Skills</h4>
+          <p>Empathy, creativity, resilience — powering meaningful work and vibrant collaboration.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" tabindex="-1">
+      <h2>Projects</h2>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p>A showcase of skill, style, and story — this site is my canvas, and code is my paint.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        <p>
+          <a href="https://yourportfolio.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a> |
+          <a href="https://github.com/dahliaanazario/portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </article>
+
+      <article>
+        <h3>ToDo App</h3>
+        <p>More than a checklist — a sleek productivity tool built to help users turn goals into wins.</p>
+        <p><strong>Tech:</strong> React, CSS</p>
+        <p>
+          <a href="https://yourtodoapp.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a> |
+          <a href="https://github.com/dahliaanazario/todo-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </article>
+    </section>
+
+    <section id="contact" tabindex="-1">
+      <h2>Let’s Build the Future Together</h2>
+      <p>Email: <a href="mailto:dahliaanazario@gmail.com">dahliaanazario@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/dahliaanazario" target="_blank" rel="noopener noreferrer">linkedin.com/in/dahliaanazario</a></p>
+      <p>GitHub: <a href="https://github.com/dahliaanazario" target="_blank" rel="noopener noreferrer">github.com/dahliaanazario</a></p>
+
+      <form id="contact-form" aria-label="Contact form">
+        <input type="text" name="name" placeholder="Your Name" required autocomplete="name" />
+        <input type="email" name="email" placeholder="Your Email" required autocomplete="email" />
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2025 Dahlia Anazario — Designed with vision, built with code.</p>
+    <p>
+      <a href="mailto:dahlia@example.com">Email</a> |
+      <a href="https://github.com/dahliaanazario" target="_blank" rel="noopener noreferrer">GitHub</a> |
+      <a href="https://linkedin.com/in/dahliaanazario" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top">&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
